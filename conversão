@@ -1,0 +1,8 @@
+#Conversão de Celsius para Fahrenheit: Crie uma função que recebe uma temperatura em graus Celsius e retorna a temperatura equivalente em Fahrenheit. F = C X 1.8 + 32
+def celsius_para_fahrenheit(celsius):
+    fahrenheit = celsius * 1.8 + 32
+    return fahrenheit
+
+temperatura_celsius = int(input("Qual a temperatura em celcius?"))
+temperatura_fahrenheit = celsius_para_fahrenheit(temperatura_celsius)
+print(f"{temperatura_celsius}°C é equivalente a {temperatura_fahrenheit}°F")
