@@ -1,0 +1,9 @@
+
+def obter_nome():
+    nome = input("Fale o seu nome: ")
+    return nome 
+def exibir_mensagem(nome):
+    print(f"Olá {nome}, bem-vindo ao meu código!") 
+
+nome = obter_nome()  
+exibir_mensagem(nome) 
