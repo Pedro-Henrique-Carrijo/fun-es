@@ -1,0 +1,7 @@
+def sum(a, b):
+    return (a - b)
+
+a = int(input("fale o primeiro numero: "))
+b = int(input("fale o primeiro numero: "))
+
+print(f"A soma dos numeros é {sum(a, b)}")
